@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/Users/a1111/Desktop/html2.2/Laba2.2.CSS/laba2.2.css" rel="stylesheet">
+    <title>Форма аутентификации</title>
+</head>
+<body>
+    <form method="post" action="https://httpbin.org/post">
+        <div>
+            <label for="login">Логин</label><br>
+            <input type="text" name="login" id="login" placeholder="Введите логин"  required>
+        </div><br>
+
+        <div>
+            <label for="password">Пароль</label><br>
+            <input type="text" name="password" id="password" placeholder="Введите пароль"  required>
+        </div><br>
+
+        <fieldset>
+            <input type="checkbox" name="remember" id="remember">
+            <label for="remember">Запомнить меня</label>
+        </fieldset><br>
+
+        <button type="submit">Войти</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,19 @@
+body{
+    background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1612738414_201-p-goluboi-shkolnii-fon-250.jpg);
+}
+form {
+    text-align: center;
+    background-color: aliceblue;
+    margin: 0 30%;
+    margin-top: 15%;
+    padding: 10px;
+    border: 5px solid blue;
+    border-radius: 40px;
+}
+div{
+    line-height: 20px;
+}
+button{
+    width: 200px;
+    background-color: blueviolet;
+}
